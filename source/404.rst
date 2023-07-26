@@ -1,6 +1,17 @@
-Fish not found
-==============
+To update the latest version of PufferPanel from version 2.x, follow the steps below:
 
-We could not find the page you were looking for. 
-I suggest looking at the menu on the left to find
-the flakes that you seek.
+You need the Ubuntu 20.04 version for the latest version of Pufferpanel.
+Therefore it is important to update your Linux server if you are using Ubuntu 20.04.
+
+once you have done that use the following steps:
+
+STEP 1: Have you installed this repository?
+
+If not, run this installation script command:
+curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh
+
+STEP 2: Install the package
+
+sudo apt-get install pufferpanel=2.6.8
+
+Now your server is on the latest version.
